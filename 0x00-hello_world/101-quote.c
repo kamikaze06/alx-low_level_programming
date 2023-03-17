@@ -6,7 +6,7 @@
  *
  * Return: 1 on success
  */
-int	main(void)
+int main(void)
 {
 	fflush(stdout);
 	dup2(fileno(stderr),	fileno(stdout));
