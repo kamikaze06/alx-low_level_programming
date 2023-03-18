@@ -9,7 +9,7 @@
 int main(void)
 {
 	char i;
-	int j ;
+	int j;
 
 	for	(j = 0; j <= 9; j++)
 	{
