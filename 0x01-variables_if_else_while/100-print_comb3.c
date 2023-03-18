@@ -19,7 +19,7 @@ int main(void)
 			{
 				continue;
 			}
-			if	(ij == ji)
+			if	('ij' == 'ji')
 			{
 				continue;
 			}
