@@ -19,6 +19,10 @@ int main(void)
 			{
 				continue;
 			}
+			if	(ij == ji)
+			{
+				continue;
+			}
 			putchar(i + '0');
 			putchar(j + '0');
 			putchar(',');
