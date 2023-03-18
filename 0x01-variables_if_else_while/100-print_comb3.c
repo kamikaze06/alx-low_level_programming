@@ -19,10 +19,6 @@ int main(void)
 			{
 				continue;
 			}
-			if	('i + j' == 'j + i')
-			{
-				continue;
-			}
 			putchar(i + '0');
 			putchar(j + '0');
 			putchar(',');
