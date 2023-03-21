@@ -16,6 +16,12 @@ int print_last_digit(int c)
 		_putchar(last_digit + 48);
 		return (last_digit);
 	}
+	else if (c = INT_MIN)
+	{
+		last_digit = 8;
+		_putchar(last_digit + 48);
+		return (last_digit);
+	}
 	else
 	{
 		c = -1 * c;
