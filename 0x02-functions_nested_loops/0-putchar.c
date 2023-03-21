@@ -7,8 +7,6 @@
  * Return: On success 0 .
  */
 int main(){
-
-	char c;
 	
 	_putchar('_');
 	_putchar('p');
@@ -20,8 +18,4 @@ int main(){
 	_putchar('r');
 	_putchar('\n');
 	return (0);
-}
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
