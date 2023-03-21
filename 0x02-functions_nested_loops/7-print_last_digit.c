@@ -6,11 +6,11 @@
  *
  * Return: 0
  */
-int print_last_digit(int j)
+int print_last_digit(int c)
 {
 	int last_digit;
 
-	last_digit = j % 10;
-	_putchar(j + '0');
+	last_digit = c % 10;
+	_putchar(c + 48);
 	return (last_digit);
 }
