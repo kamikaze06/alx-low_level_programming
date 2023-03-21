@@ -2,7 +2,7 @@
 /**
  * _abs - compute the absolute value of int
  *
- * @i the integre to compute
+ * @i: the integer to compute
  *
  * Return: i
  */
