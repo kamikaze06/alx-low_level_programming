@@ -6,20 +6,16 @@
  *
  * Return: On success 0 .
  */
-int _putchar(char c)
-{
-	return write(1, &c, 1);
-}
-
 int main(void)
 {
-	_putchar(char _);
-	_putchar(char p);
-	_putchar(char u);
-	_putchar(char t);
-	_putchar(char c);
-	_putchar(char h);
-	_putchar(char a);
-	_putchar(char r'\n');
+	char str[] = "_putchar";
+	int i = 0;
+
+	while (str[i] != '\0')
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
