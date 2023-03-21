@@ -8,9 +8,10 @@
  */
 int _islower(int c)
 {
-	int j = 97;
-	while (j <= 122)
+	int c = 97;
+	while (c <= 122)
 	{
 		return (1);
+		c++;
 	}
 }
