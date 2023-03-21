@@ -16,7 +16,7 @@ int print_last_digit(int c)
 		_putchar(last_digit + 48);
 		return (last_digit);
 	}
-	else if (c = -2147483648)
+	else if (c == -2147483648)
 	{
 		last_digit = 8;
 		_putchar(last_digit + 48);
