@@ -8,13 +8,13 @@
  */
 int main(void)
 {
-	int _putchar(char _);
-	int _putchar(char p);
-	int _putchar(char u);
-	int _putchar(char t);
-	int _putchar(char c);
-	int _putchar(char h);
-	int _putchar(char a);
-	int _putchar(char r'\n');
+	_putchar(char _);
+	_putchar(char p);
+	_putchar(char u);
+	_putchar(char t);
+	_putchar(char c);
+	_putchar(char h);
+	_putchar(char a);
+	_putchar(char r'\n');
 	return (0);
 }
