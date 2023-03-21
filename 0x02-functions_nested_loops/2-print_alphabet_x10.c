@@ -6,7 +6,7 @@
  *
  * Return: 0 on success, non-zero on failure
  */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
 	int j = 0;
 	char i ;
