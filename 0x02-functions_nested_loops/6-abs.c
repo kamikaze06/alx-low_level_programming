@@ -2,9 +2,9 @@
 /**
  * _abs - compute the absolute value of int
  *
+ * @i the integre to compute
  *
- *
- * Return: 0 
+ * Return: i
  */
 int _abs(int i)
 {
