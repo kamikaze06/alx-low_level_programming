@@ -19,7 +19,7 @@ void jack_bauer(void)
 		_putchar(minute / 10 + 48);
 		_putchar(minute % 10 + 48);
 		_putchar('\n');
-		minute++ ;
+		minute++;
 		if (minute == 60)
 		{
 			minute = 0;
