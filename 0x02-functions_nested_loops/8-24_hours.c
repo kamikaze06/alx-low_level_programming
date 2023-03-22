@@ -19,12 +19,11 @@ void jack_bauer(void)
 		{
 			_putchar(b + 48);
 			_putchar(':');
-			_putchar('\n');
 			b++ ;
 		}
 		_putchar(a + 48);
-		_putchar('\n');
 		a ++ ;
 	}
+	_putchar('\n');
 }
 
