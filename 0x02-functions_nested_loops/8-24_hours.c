@@ -15,25 +15,12 @@ void jack_bauer(void)
 	while (a <= 2)
 	{
 		b = 0;
-		if (a != 2)
-		{
-			while (b <= 9)
+		while (b <= 9)
 		{
 			_putchar(b + 48);
 			_putchar(':');
 			_putchar('\n');
 			b++ ;
-		}
-		}
-		else 
-		{
-			while (b <= 4)
-			{
-			_putchar(b + 48);
-			_putchar(':');
-			_putchar('\n');
-			b++ ;
-			}
 		}
 		_putchar(a + 48);
 		_putchar('\n');
