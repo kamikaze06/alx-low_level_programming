@@ -1,7 +1,15 @@
 #include<stdio.h>
 #include"main.h"
+/**
+ * main - tests function that prints if int is + or -
+ * return: 0
+ */
 int main(void)
 {
-	void positive_or_negative(int 0);
+	int i;
+
+	i = 0;
+	positive_or_negative(i);
+
 	return(0);
 }
