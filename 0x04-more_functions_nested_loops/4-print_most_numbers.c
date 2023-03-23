@@ -8,14 +8,16 @@ void print_most_numbers(void)
 	int a;
 
 	a = 0;
-	while (a <= 9 )
+	while (a <= 9)
 	{
 		if (a == 2 || a == 4)
 		{
+			a++;
 			continue;
 		}
+
 		_putchar(a + 48);
-		a++;		
+		a++;
 	}
 	_putchar('\n');
 }
