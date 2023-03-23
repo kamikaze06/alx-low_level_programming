@@ -14,11 +14,8 @@ void print_most_numbers(void)
 		{
 			continue;
 		}
-		else
-		{
 		_putchar(a + 48);
-		a++;
-		}
+		a++;		
 	}
 	_putchar('\n');
 }
