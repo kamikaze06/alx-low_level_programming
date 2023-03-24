@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include"main.h"
 /**
  * main - entry of the function
  * Return: 0
@@ -12,33 +11,21 @@ int main(void)
 	{
 		if (i % 3 == 0)
 		{
-			_putchar(70), _putchar(105), _putchar(122), _putchar(122), _putchar(' ');
+			printf("Fizz ");
 		}
 		else if (i % 5 == 0)
 		{
-			_putchar(66), _putchar(117), _putchar(122), _putchar(122), _putchar(' ');
+			printf("Buzz ");
 		}
 		else if (i % 3 == 0 && i % 5 == 0)
 		{
-			_putchar(70);
-			_putchar(105);
-			_putchar(122);
-			_putchar(122);
-			_putchar(66);
-			_putchar(117);
-			_putchar(122);
-			_putchar(122);
-			_putchar(' ');
-		}
-		else if (i <= 9)
-		{
-			_putchar(i + '0'), _putchar(' ');
+			printf("FizzBuzz ");
 		}
 		else
 		{
-			_putchar(i / 10 + '0'), _putchar(i % 10 + '0'), _putchar(' ');
+			printf("%d ", i);
 		}
 	}
-	_putchar('\n');
+	printf("\n");
 	return (0);
 }
