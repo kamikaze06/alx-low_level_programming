@@ -2,7 +2,7 @@
 
 /**
  * rev_string -  reverses a string
- * @s - string
+ * @s: string
  */
 
 void rev_string(char *s)
@@ -12,6 +12,7 @@ void rev_string(char *s)
 	len = 0;
 	while (*s != '\0')
 	{
+		_putchar(*s);
 		len++;
 		s++;
 	}
