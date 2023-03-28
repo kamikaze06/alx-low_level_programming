@@ -10,18 +10,15 @@ void rev_string(char *s)
 	int len;
 
 	len = 0;
-	while (*s != '\0')
+	while (s[len] != '\0')
 	{
-		_putchar(*s);
 		len++;
-		s++;
 	}
-	s--;
-	while (len != 0)
+	for (int i = 0; i < len / 2; i++)
 	{
-		_putchar(*s);
-		s--;
-		len--;
+		char tmp = *s[i];
+		*s[i] = *s[len - i - 1];
+		*s[len - i - 1] = tmp;
 	}
 	_putchar('\n');
 
