@@ -14,20 +14,15 @@ char *_strncpy(char *dest, char *src, int n)
 #include"main.h"
 
 	int i;
-	int j;
 
-	i = 0;
-	while (dest[i] != '\0')
+	for (i = 0; i < n && src[i] != '\0'; i++)
 	{
-		i++;
+		dest[i] = src[i];
 	}
-	j = 0;
-	while (src[j] != '\0' && j < n)
+	for (i = 0; i < n; i++)
 	{
-		dest[i + j] = src[j];
-		j++;
+		dest[i] = '\0';
 	}
-	dest[i + j] = '\0';
 	return (dest);
 
 }
