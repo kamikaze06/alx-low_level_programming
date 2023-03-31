@@ -10,7 +10,7 @@ char *cap_string(char *a)
 {
 	int i;
 	int j;
-	char s[];
+	char s[13];
 
 	s[] = " \n\t,;.!?\"(){}";
 	if (a[0] >= 'a' && a[0] <= 'z')
