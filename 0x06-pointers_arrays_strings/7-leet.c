@@ -11,9 +11,9 @@ char *leet(char *a)
 	int i;
 	int j;
 	char x[] = "aAeEoOtTlL";
-	char z[] ="4433007711";
+	char z[] = "4433007711";
 
-	for (i = 0; a[i] != '\0';i++)
+	for (i = 0; a[i] != '\0'; i++)
 	{
 		for (j = 0; j <= 9; j++)
 		{
