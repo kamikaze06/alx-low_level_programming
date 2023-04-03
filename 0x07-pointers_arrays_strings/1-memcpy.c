@@ -20,5 +20,6 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest++;
 		src++;
 	}
+	_putchar('\n');
 	return (dest);
 }
