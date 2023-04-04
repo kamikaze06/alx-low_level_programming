@@ -26,6 +26,7 @@ char *_strpbrk(char *s, char *accept)
 			ptr2++;
 		}
 		s++;
+		ptr1 = s;
 	}
 	return (NULL);
 }
