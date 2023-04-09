@@ -9,6 +9,8 @@
 
 int main(int argc, char *argv[])
 {
+	int digit;
+
 	while (argc > 0)
 	{
 		digit = argc % 10;
