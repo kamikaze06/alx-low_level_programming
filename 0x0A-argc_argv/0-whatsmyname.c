@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
@@ -7,15 +8,9 @@
  * Return: int
  */
 
-int main(int argc, char *argv[])
+int main(int argc __attribute__((unused)), char *argv[])
 {
-	char *program_name = argv[argc - argc];
+	printf("%s\n", *argv);
 
-	while (*program_name != '\0')
-	{
-		_putchar(*program_name);
-		program_name++;
-	}
-	_putchar('\n');
 	return (0);
 }
