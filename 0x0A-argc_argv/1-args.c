@@ -7,7 +7,7 @@
  * Return: int
  */
 
-int main(int argc)
+int main(int argc, char *argv[])
 {
 	int digit;
 
