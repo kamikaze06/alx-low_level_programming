@@ -19,6 +19,11 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 
+	if (duplicate_str == NULL)
+	{
+		return (NULL);
+	}
+
 	for (i = 0; i < strlen(str) + 1; i++)
 	{
 		duplicate_str[i] = str[i];
