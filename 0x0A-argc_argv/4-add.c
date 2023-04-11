@@ -9,16 +9,16 @@
  */
 int check_num(char *str)
 {
-	unsigned int i ;
+	unsigned int i;
 
 	i = 0;
 	while (i < strlen(str))
 	{
-		 if (!isdigit(str[i]))
-		 {
-			 return (0);
-		 }
-		 i++;
+		if (!isdigit(str[i]))
+		{
+			return (0);
+		}
+		i++;
 	}
 	return (1);
 }
